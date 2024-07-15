@@ -67,6 +67,11 @@ Version:	1.1
 	display: none;
 	margin: 0;
 }
+.appoint{
+	margin-top: 12px;
+	display: none;
+	margin: 0;
+}
 .header .nav li a {
 	font-size: 13px;
 	font-weight: 500;
@@ -385,6 +390,11 @@ Version:	1.1
 }
 .image{
 	width:40%;
+}
+.appoint{
+	margin-top: 12px;
+	/* display: none; */
+	margin: 0;
 }
 .header.sticky .header-bottom{
 	position:absolute;
@@ -1035,7 +1045,11 @@ Version:	1.1
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
 
-
+.appoint{
+	margin-top: 12px;
+	display: none;
+	margin: 0;
+}
 .section{
 	padding:50px 0px;
 }
@@ -1312,6 +1326,13 @@ Version:	1.1
 
 
 
+}
+@media (min-width: 768px){
+	.appoint{
+		margin-top: 12px;
+		display: none;
+		margin: 0;
+	}
 }
 .nums{
 	padding:9px;
