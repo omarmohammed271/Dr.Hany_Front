@@ -1,0 +1,17 @@
+* Structure
+
+-> One-Clinic
+
+1- Only Doctors are allowed to enter
+2- they have to login/sign-up
+3- Display the available categories (Teeth implants - surgery - Gum)
+4- if the doctor clicked on a category, display all the doctors in the category
+5- Every doctor is displayed with their name and rating, and of course their photo
+6- provide a page for doctor details:
+ - Image
+ - name
+ - rating
+ - location
+ - certifications
+ - chat
+7- One-Clinic is used for to handle patients with different needs

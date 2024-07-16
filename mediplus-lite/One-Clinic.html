@@ -10,10 +10,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		
 		<!-- Title -->
-        <title>Mediplus - Free Medical and Doctor Directory HTML Template.</title>
+        <title>Dr.Hany Dentry</title>
 		
 		<!-- Favicon -->
-        <link rel="icon" href="img/favicon.png">
+        <link rel="icon" href="tooth.png">
 		
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
@@ -36,7 +36,7 @@
         <link rel="stylesheet" href="css/animate.min.css">
 		<!-- Magnific Popup CSS -->
         <link rel="stylesheet" href="css/magnific-popup.css">
-		
+		<link href="fontawesome-free/css/all.min.css" rel="stylesheet">
 		<!-- Medipro CSS -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="style.css">
@@ -55,31 +55,41 @@
 						<div class="row justify-content-between">
 							
 							<div class="col-lg-3 col-md-3">
-								<div class="logo w-25">
-									<a href="index.html"><img src="tooth.png" class="image" alt="#"></a>
+								<div class="logo w-75">
+									<a href="index.html"><img src="logo.png" class="image" alt="#"></a>
 								</div>
 								<div class="mobile-nav mt-1 pe-3" style="size: 50px;"></div>
 							</div>
+
+							<!-- if the user is authenticated -->
 							<div class="col-lg-7 col-md-9">
-								<!-- Main Menu -->
-								
 								<div class="main-menu">
-									<nav class="navigation">
-										<ul class="nav menu">
-											<li class="active"><a href="#">Home <i class="icofont-rounded-down"></i></a>
-												<ul class="dropdown">
-													<li><a href="index.html">Home Page 1</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Doctors </a></li>
-											<li><a href="#">Services </a></li>
-											<li><a href="blog-single.html">One-Clinic </a></li>
+									<nav class="navigation ms-lg-2">
+										<ul class="nav menu  align-items-center">
+											<li><div class="p-2 d-flex justify-content-start align-items-center" >
+												<i class="fa-solid fa-user" style="color:rgb(0, 89, 255);"></i>
+												<a href="doctor-details.html">Ahmed Mohammed</a>
+											</div></li>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="One-Clinic.html">One-Clinic </a></li>
 											<li><a href="contact.html">Contact Us</a></li>
 										</ul>
 									</nav>
 								</div>
-								<!--/ End Main Menu -->
 							</div>
+
+							<!-- if the user is not authenticated -->
+							<!-- <div class="col-lg-5 col-md-5">
+								<div class="main-menu">
+									<nav class="navigation ms-lg-2">
+										<ul class="nav menu  align-items-center">
+											<li><a href="index.html">Home</a></li>
+											<li><a href="One-Clinic.html">One-Clinic </a></li>
+											<li><a href="contact.html">Contact Us</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div> -->
 							<div class="col-lg-2">
 								<div class="get-quote">
 									<a href="appointment.html" class="btn">Book Appointment</a>
@@ -94,67 +104,134 @@
 			<!--/ End Header Inner -->
 		</header>
 		<!-- End Header Area -->
-	
-		<!-- Breadcrumbs -->
-		<div class="breadcrumbs overlay">
-			<div class="container">
-				<div class="bread-inner">
-					<div class="row">
-						<div class="col-12">
-							<h2>Portfolio Details</h2>
-							<ul class="bread-list">
-								<li><a href="index.html">Home</a></li>
-								<li><i class="icofont-simple-right"></i></li>
-								<li class="active">Portfolio Details</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Breadcrumbs -->
-	
-		<!-- Start Portfolio Details Area -->
-		<section class="pf-details section">
+		
+		<!-- Single News -->
+		<section class="news-single section">
 			<div class="container">
 				<div class="row">
-					<div class="col-12">
-						<div class="inner-content">
-							<div class="image-slider">
-								<div class="pf-details-slider">
-									<img src="img/call-bg.jpg" alt="#">
-									<img src="img/call-bg.jpg" alt="#">
-									<img src="img/call-bg.jpg" alt="#">
+					<div class="col-lg-8 col-12">
+						<div class="row">
+							<div class="col-12">
+								<h1 class="mb-4 px-3" style="border-left: 6px solid #1A76D1;">All Categories</h1>
+								<div class="single-main row">
+									<div class="comments-body">
+										<!-- Single Category -->
+										<div class="single-comments">
+											<div class="main">
+												<div class="icon head mt-4">
+													<i class="icofont icofont-tooth" style="font-size: 50px;color:#1A76D1;"></i>
+												</div>
+												
+												<div class="body">
+													<a style="background: none;" href="doctors.html"><h3 class="mb-3">Teeth Implants</h3></a>
+													<!-- Tags -->
+													<div class="main-sidebar-2">
+														<!-- Single Widget -->
+														<div class="single-widget side-tags" style="margin-right: 7px;margin-bottom: 0px;">
+															<ul class="tag categories">
+																<li>business</li>
+																<li>business</li>
+																<li>business</li>
+															</ul>
+														</div>
+														<!--/ End Single Widget -->
+													</div>
+													<!-- Tags End -->
+													<p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas</p>
+													
+												</div>
+											</div>
+										</div>		
+										<!--/ End Single Category -->										
+										<!-- Single Category -->
+										<div class="single-comments">
+											<div class="main">
+												<div class="icon head mt-4">
+													<i class="fa-solid fa-stethoscope" style="font-size: 50px;color:#1A76D1;"></i>
+												</div>
+												<div class="body">
+													<a style="background: none;" href=""><h3 class="mb-3">Surgeries</h3></a>
+													<!-- Tags -->
+													<div class="main-sidebar-2">
+														<!-- Single Widget -->
+														<div class="single-widget side-tags" style="margin-right: 7px;margin-bottom: 0px;">
+															<ul class="tag categories">
+																<li>business</li>
+																<li>business</li>
+																<li>business</li>
+															</ul>
+														</div>
+														<!--/ End Single Widget -->
+													</div>
+													<!-- Tags End -->
+													<p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas</p>
+													
+												</div>
+											</div>
+										</div>		
+										<!--/ End Single Category -->										
+										<!-- Single Category -->
+										<div class="single-comments">
+											<div class="main">
+												<div class="icon head mt-4">
+													<i class="fa-solid fa-teeth" style="font-size: 50px;color:#1A76D1;"></i>
+												</div>
+												<div class="body">
+													<a style="background: none;" href=""><h3 class="mb-3">Gum Specialists</h3></a>
+													<!-- Tags -->
+													<div class="main-sidebar-2">
+														<!-- Single Widget -->
+														<div class="single-widget side-tags" style="margin-right: 7px;margin-bottom: 0px;">
+															<ul class="tag categories">
+																<li>business</li>
+																<li>business</li>
+																<li>business</li>
+															</ul>
+														</div>
+														<!--/ End Single Widget -->
+													</div>
+													<!-- Tags End -->
+													<p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas</p>
+													
+												</div>
+											</div>
+										</div>		
+										<!--/ End Single Category -->										
+									</div>
 								</div>
 							</div>
-							<div class="date">
-								<ul>
-									<li><span>Category :</span> Heart Surgery</li>
-									<li><span>Date :</span> April 20, 2019</li>
-									<li><span>Client :</span> Suke Agency</li>
-									<li><span>Ags :</span> Typo</li>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<div class="main-sidebar mt-5 pt-4">
+							<div class="single-widget search">
+								<form class="form">
+									<input type="email" placeholder="Search Here...">
+									<button type="submit">
+										<a class="button" href="#"><i class="fa fa-search"></i></a>
+									</button>
+								</form>
+							</div>
+							<!-- Single Widget -->
+							<div class="single-widget side-tags">
+								<h3 class="title">Tags</h3>
+								<ul class="tag">
+									<li><a href="#">business</a></li>
+									<li><a href="#">wordpress</a></li>
+									<li><a href="#">html</a></li>
+									<li><a href="#">multipurpose</a></li>
+									<li><a href="#">education</a></li>
+									<li><a href="#">template</a></li>
+									<li><a href="#">Ecommerce</a></li>
 								</ul>
 							</div>
-							<div class="body-text">
-								<h3>Here is the name of this project here</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor a ti incididunt ut labore et dolore to in magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna aliqua uis nostrud.Lorem ipsum dolor sit amet, in a in to in a consectetur.ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna in a aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do eiusmod</p>
-								<p>ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna to in aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do eiusmod.ncididunt ut labore et dolore magna aliqua. </p>
-								<p>ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna a aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do eiusmod.ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do eiusmod. dolor sit amet, in aed do eiusmod.ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna aliqua uis nostrud.</p>
-								<div class="share">
-									<h4>Share Now -</h4>
-									<ul>
-										<li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-									</ul>
-								</div>
-							</div>
+							<!--/ End Single Widget -->
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- End Portfolio Details Area -->
+		<!--/ End Single News -->
 		
 		<!-- Footer Area -->
 		<footer id="footer" class="footer ">
